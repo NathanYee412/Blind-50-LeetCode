@@ -18,4 +18,4 @@ class Solution:
                 vals[x] = i
                 
                 
-        return 
+        return None
