@@ -1,9 +1,6 @@
 # Week 1 of Blind 50 Leetcode challenge
 I will document my progress and explain solutions here and in code. 
 
-## Day 1 (1/26/2022)
-Starting with TwoSum. LeetCode's most popular question to solve. 
-Continuing with Contains Duplicate
 
 ### Two Sum (1/26/2022)
 My implementation of Two Sum starts with creating an empty dict in Python.
@@ -42,5 +39,16 @@ while the r pointer is less than the length of the input array,
     iter ate the right pointer
 
 return the max profit 
+
+### Valid Anagram (1/27/2022)
+
+Was only able to solve with a time complexity O(n^2)
+
+used one loop to check one letter
+    then another loop to check all letters until it matched
+    when matched remove that letter and break from the loop
+
+
+    
 
 
