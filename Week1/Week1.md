@@ -24,4 +24,23 @@ Loop through array and check if the value is already in the dictionary.
 if the value exists in there already, return True
 Outside of the for loop, return False. If the loop finishes without seeing a duplicate the first thing to do is to return False
 
+### Best time to buy and sell stock (1/27/2022)
+Two pointer 
+l = 0, r = 1
+
+maxProfit = 0
+
+while the r pointer is less than the length of the input array,
+    check if the value at the left pointer is less than the value of the right pointer
+        calculate the profit
+        Compare max profit to current profit 
+
+    if the value of the left pointer is greater than the value of the right pointer
+        set the position of the left pointer to the right
+    
+
+    iter ate the right pointer
+
+return the max profit 
+
 
