@@ -49,6 +49,25 @@ used one loop to check one letter
     when matched remove that letter and break from the loop
 
 
+### Product Except Self
+
+Used a left and right pointer that starts at the beginning and end. 
+
+Calculate the value of the prefix and iterate one forward
+Calculate the value of the postfix and iterate one backward
+
+start the lvalue = 1 and rvalue = 1
+then do *= to calculate the rolling total 
+
+When the array is done iterating then do a forloop for the length of the prefix and multiply the two together 
+
+Runtime: O(n^2) at the moment because two forloops are used
+
+Will look at other solutions to improve runtime 
+
+
+
+
     
 
 
