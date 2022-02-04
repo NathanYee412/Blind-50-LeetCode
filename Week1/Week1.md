@@ -49,7 +49,7 @@ used one loop to check one letter
     when matched remove that letter and break from the loop
 
 
-### Product Except Self
+### Product Except Self (2/2/2022)
 
 Used a left and right pointer that starts at the beginning and end. 
 
@@ -64,6 +64,16 @@ When the array is done iterating then do a forloop for the length of the prefix 
 Runtime: O(n^2) at the moment because two forloops are used
 
 Will look at other solutions to improve runtime 
+
+
+### 58. Length of Last Word (2/4/2022)
+
+Iterated from the right side of the string
+started count when first char was not a space
+Had a flag set to start when the first non space char was met
+then when another space was met, the loop will break
+
+return the count of the chars that were not space 
 
 
 
