@@ -86,7 +86,7 @@ set the greater value of curSum or maxSum to the maximum sum
 
 Need to figure out how to divide and conquer algo
 
-
-    
-
+### 56. Merge Intervals
+Testing out linear approch to test next value
+passes default test cases, but stuck on submission tests
 
