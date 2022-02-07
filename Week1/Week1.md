@@ -75,7 +75,16 @@ then when another space was met, the loop will break
 
 return the count of the chars that were not space 
 
+### 53. Maximum Subarray
 
+set current Sum to the first element of the array
+if the currentSum < 0 then set the current sum = 0
+
+Then add the next number to the current sum
+
+set the greater value of curSum or maxSum to the maximum sum
+
+Need to figure out how to divide and conquer algo
 
 
     
